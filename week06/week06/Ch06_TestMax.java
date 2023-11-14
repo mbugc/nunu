@@ -1,0 +1,28 @@
+package week06;
+
+public class Ch06_TestMax {
+
+	/** Main method */
+	public static void main(String[] args) {
+		int i = 5;
+		int j = 2;
+		int k = max(i, j); // Invoke max method
+		System.out.println("The maximum between " + i + " and " //
+				+ j + " is " + k);
+		int m = max(12, 67);
+		System.out.println("m:" + m);
+	}
+
+	/** Return the max between two numbers */
+	public static int max(int num1, int num2) {
+		int result;
+
+		if (num1 > num2)
+			result = num1;
+		else
+			result = num2;
+
+		return result; // Return result
+	}
+
+}
